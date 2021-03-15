@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2em 2em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Toastify__toast-body{
+max-height: 40em !important;
+      overflow:scroll;
+    overflow-x:hidden;
+    min-width: 57em !important;
+}
+
+.Toastify__toast--default {
+  max-width: 60em;
+  margin: 0 auto;
+}
+.Toastify__toast-container--top-center{
+  top: 23vh !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.MuiPaper-root {
+  margin-top: 1.5em;
+}
+
+.MuiTableCell-head {
+  font-weight: 700 !important;
+}
+
+.MuiSelect-select.MuiSelect-selectMenu {
+  padding-left: 0.25em;
+  padding-bottom: 0.15em;
+  padding-top: 0.2em;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.heading {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.button--submit {
+  margin-left: 0.6em;
+}
